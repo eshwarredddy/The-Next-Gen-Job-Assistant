@@ -20,6 +20,7 @@ An autonomous Telegram bot that acts as your personal "casting director" and rec
 
 ## Prerequisites
 
+
 - Python 3.9+
 - A Telegram Bot Token (from [@BotFather](https://t.me/botfather))
 - A Hunter.io API Key (from [Hunter.io](https://hunter.io/))
