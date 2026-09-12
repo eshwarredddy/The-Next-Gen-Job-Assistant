@@ -1,4 +1,4 @@
-# SideDoor AI - Autonomous Startup Recruiter
+# HireX AI - Autonomous Startup Recruiter
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Telegram API](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
@@ -85,3 +85,5 @@ An autonomous Telegram bot that acts as your personal "casting director" and rec
 - **OpenAI Python SDK**: For querying Llama-3.1-8b via OpenRouter.
 - **DuckDuckGo-Search (ddgs)**: For X-Ray targeting.
 - **PyPDF2**: For parsing uploaded resumes.
+- **Exa**: For web scraping
+- **OpenRouter**: Used as LLM
