@@ -5,3 +5,8 @@ __pycache__/
 backdoor.db
 token.json
 credentials.json
+
+.crawl4ai
+*.log
+*.bak
+

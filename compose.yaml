@@ -1,0 +1,14 @@
+services:
+  recruiter-copilot:
+    build: .
+    container_name: recruiter-copilot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./token.json:/app/token.json:ro
+      - ./credentials.json:/app/credentials.json:ro
+    environment:
+      - DATABASE_URL=sqlite:////app/data/backdoor.db
+      - CRAWL4_AI_BASE_DIRECTORY=/app/.crawl4ai
